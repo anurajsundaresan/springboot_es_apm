@@ -1,1 +1,2 @@
 //gitlab -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
+1. docker compose up -d
