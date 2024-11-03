@@ -25,7 +25,7 @@ public class HelloController {
     }
     @GetMapping("/error")
     public List<String> generateErrorLog() {
-    	log.error("This is a generated error!");
+    	log.error("This is a generated error- {}", this.sayHello());
     	messages.add("this is a test error message");
         return messages;
     }
